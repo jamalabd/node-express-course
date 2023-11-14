@@ -1,7 +1,7 @@
-const getAllTasks = () =>(req,res)=> {
-    res.send(' all items')
-}
+const getAllTasks = () => (req, res) => {
+  res.send(" all items");
+};
 
 module.exports = {
-    getAllTasks
-}
+  getAllTasks,
+};
